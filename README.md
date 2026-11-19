@@ -19,11 +19,16 @@ Automation tool for logging work-at-height permits. It captures data and photos 
 
 ## Installation and Setup Guide
 
-1. Primero tienes que crear el formulario en Forms y cuando se genere el excel vinculado al formulario lo tienes que desvincular y crear otro con la misma estructura **(A la hora de desvincularlo te genera un nuevo excel y por lo tanto puedes usar ese que ya tenias y no te preocupas de crear una nueva tabla asociada al formulario).**
+1. First, create the form in Microsoft Forms. Once the linked Excel workbook is generated, unlink it and create another workbook with the same structure. **(When you unlink the workbook, Forms generates a new one, so you can keep using the original workbook without having to create a new table linked to the form.)**
 
-2. Abre la pestaña de Automate y crea un nuevo script asociado a la hoja actual y a la tabla actual y pegas el codigo alojado aqui [Ir a Scripts](./Scripts/). Ajusta el codigo si es necesario 
+2. Open the Automate tab and create a new script for the current worksheet and table. Paste in the code located here [Scripts](./Scripts/). and adjust it if necessary.
 
-3. Despues ve a power automate y pon el siguiente flujo: ![Workflow](./Assets/Workflow.jpg)
+3. Next, go to Power Automate and set up the following flow: 
+![Workflow](./Assets/Workflow.jpg)
+For more details, see the [Power_automate](./Power_automate/) folder. 
+
+4. That’s it! From now on, each form submission will automatically trigger and complete the workflow.
+
 
 
 ## Troubleshooting
