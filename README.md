@@ -23,7 +23,8 @@ Automation tool for logging work-at-height permits. It captures data and photos 
 
 2. Abre la pestaña de Automate y crea un nuevo script asociado a la hoja actual y a la tabla actual y pegas el codigo alojado aqui [Ir a Scripts](./Scripts/). Ajusta el codigo si es necesario 
 
-3. Despues ve a power automate y pon el siguiente flujo: ![Workflow](./assets/Workflow.png)
+3. Despues ve a power automate y pon el siguiente flujo: 
+![Workflow](./assets/Workflow.png)
 
 
 ## Troubleshooting
