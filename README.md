@@ -23,10 +23,7 @@ Automation tool for logging work-at-height permits. It captures data and photos 
 
 2. Open the Automate tab and create a new script for the current worksheet and table. Paste in the code located here [Scripts](./Scripts/). and adjust it if necessary.
 
-3. Next, go to Power Automate and set up the following flow: 
-![Workflow](./Assets/Workflow.jpg)
-
-
+3. Next, go to Power Automate and set up the following flow: ![Workflow](./Assets/Workflow.jpg)
 
 For more details, see the [Power_automate](./Power_automate/) folder. 
 
