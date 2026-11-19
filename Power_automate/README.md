@@ -28,7 +28,7 @@ Enter the following expression: "decodeUriComponent(split(json(outputs('Get_resp
 
 Add the script and make sure it comes out as shown below:
 
-![runScript](./Assets/runScript.jpg)
+![runScript](../Assets/runScript.jpg)
 
 * **ScriptParameters/url** enter the following: "json(outputs('Get_response_details')?['body/r5dd8fef347ff48f5bf4a7048eb107d98'])[0]?['link']" **remember to change the body to the one that belongs to you**
 
