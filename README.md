@@ -33,8 +33,8 @@ For more details, see the [Power_automate](./Power_automate/) folder.
 
 
 ## Troubleshooting
-*   **Timeout Error:** 
-*   **The Problem:** When passing high-resolution images (e.g., 5MB - 6MB) from Power Automate to Excel, the Base64 string grows by ~33% (up to 8MB of text). Office Scripts has a hard 2-minute execution limit. Processing such a large string often causes the server to freeze, resulting in a `Timeout` or `InvalidArgument` error.
+
+*   **Timeout Error - The Problem:** When passing high-resolution images (e.g., 5MB - 6MB) from Power Automate to Excel, the Base64 string grows by ~33% (up to 8MB of text). Office Scripts has a hard 2-minute execution limit. Processing such a large string often causes the server to freeze, resulting in a `Timeout` or `InvalidArgument` error.
 
 *   **The Solution:** We implemented a "Chunking" technique. Instead of sending the entire Base64 string at once, Power Automate splits it into two smaller chunks using the `substring()` function. The Office Script then concatenates these chunks back together before inserting the image.
 
