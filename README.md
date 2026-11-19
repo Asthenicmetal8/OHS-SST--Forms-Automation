@@ -26,6 +26,8 @@ Automation tool for logging work-at-height permits. It captures data and photos 
 3. Next, go to Power Automate and set up the following flow: 
 ![Workflow](./Assets/Workflow.jpg)
 
+
+
 For more details, see the [Power_automate](./Power_automate/) folder. 
 
 4. That’s it! From now on, each form submission will automatically trigger and complete the workflow.
